@@ -16,9 +16,9 @@ class Article extends React.Component
                 <h3>{title}</h3>
                 <hr />
                 <p>
-                Lalalalllalala allallallalala alallalalal lalalalalalla allalalalal
-                Lalalalllalala allallallalala alallalalal lalalalalalla allalalalal
-                Lalalalllalala allallallalala alallalalal lalalalalalla allalalalal
+                    Lalalalllalala allallallalala alallalalal lalalalalalla allalalalal
+                    Lalalalllalala allallallalala alallalalal lalalalalalla allalalalal
+                    Lalalalllalala allallallalala alallalalal lalalalalalla allalalalal
                 </p>
                 <a class="btn btn-default" href="#">More Info</a>
             </div>

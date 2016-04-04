@@ -8,10 +8,10 @@ class Featured extends React.Component
 {
     render () {
         let Articles = [
-        "Some Article",
-        "Some Other Article",
-        "Yet Another Article",
-        "Even More Articles"
+            "Some Article",
+            "Some Other Article",
+            "Yet Another Article",
+            "Even More Articles"
         ].map((title, index) => <Article key={index} title={title} />);
 
         let adText = [

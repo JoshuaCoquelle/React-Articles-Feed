@@ -13,10 +13,10 @@ class Archives extends React.Component
         let { params } = this.props;
 
         let Articles = [
-        "Some Article",
-        "Some Other Article",
-        "Yet Another Article",
-        "Even More Articles"
+            "Some Article",
+            "Some Other Article",
+            "Yet Another Article",
+            "Even More Articles"
         ].map((title, index) => <Article key={index} title={title} />);
 
         return (
