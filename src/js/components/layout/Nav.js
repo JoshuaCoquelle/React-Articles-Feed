@@ -1,8 +1,14 @@
 import React from "react";
 import { IndexLink, Link } from "react-router";
 
+/**
+ * Navigation class component
+ */
 class Nav extends React.Component 
 {
+    /**
+     * @return {JSX Markup}
+     */
     render () {
         return (
             <nav class="navbar navbar-inverse">

@@ -1,7 +1,13 @@
 import React from "react";
 
+/**
+ * Article template class component
+ */
 class Article extends React.Component 
 {
+    /**
+     * @return {JSX Markup}
+     */
     render () {
         let { title } = this.props;
 

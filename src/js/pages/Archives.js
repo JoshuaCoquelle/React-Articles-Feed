@@ -1,8 +1,14 @@
 import React from "react";
 import Article from "../components/Article";
 
+/**
+ * Archived articles class component
+ */
 class Archives extends React.Component
 {
+    /**
+     * @return {JSX Markup}
+     */
     render () {
         let { params } = this.props;
 

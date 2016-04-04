@@ -1,6 +1,9 @@
 import React from "react";
 import Article from "../components/Article";
 
+/**
+ * Featured (Article) class component
+ */
 class Featured extends React.Component 
 {
     render () {
@@ -12,11 +15,11 @@ class Featured extends React.Component
         ].map((title, index) => <Article key={index} title={title} />);
 
         let adText = [
-        "Ad spot #1",
-        "Ad spot #2",
-        "Ad spot #3",
-        "Ad spot #4",
-        "Ad spot #5"
+            "Ad spot #1",
+            "Ad spot #2",
+            "Ad spot #3",
+            "Ad spot #4",
+            "Ad spot #5"
         ];
 
         let randomAd = adText[Math.round(Math.random() * (adText.length - 1))];

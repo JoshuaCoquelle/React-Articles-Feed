@@ -4,11 +4,15 @@ import { Link } from "react-router";
 import Footer from "../components/layout/Footer";
 import Nav from "../components/layout/Nav";
 
+/**
+ * Main page Layout class component
+ */
 class Layout extends React.Component
 {
+    /**
+     * @return {JSX Markup}
+     */
     render () {
-    let { location } = this.props;
-
         return (
             <div>
                 <Nav />
