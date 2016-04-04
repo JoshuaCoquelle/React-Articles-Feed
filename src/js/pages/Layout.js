@@ -4,10 +4,10 @@ import { Link } from "react-router";
 import Footer from "../components/layout/Footer";
 import Nav from "../components/layout/Nav";
 
-class Layout extends React.Component 
+class Layout extends React.Component
 {
     render () {
-        let { location } = this.props;
+    let { location } = this.props;
 
         return (
             <div>
@@ -20,7 +20,6 @@ class Layout extends React.Component
                         </div>
                     </div>
                 </div>
-
                 <Footer />
             </div>
         );
